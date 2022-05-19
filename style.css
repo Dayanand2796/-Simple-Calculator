@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  color:white;
+  font-family: 'Roboto',monospace;
+
+}
+.button{
+  display:inline-block;
+  padding:20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor:pointer;
+  
+}
+.button:hover{
+  animation:pulsate 05s ease-in-out;
+}
+@keyframes pulsate{
+  0%{
+    box-shadow: 0 0 35px orangered, 0 0 gray;
+  }
+}
+.row
+{
+  margin:6px 0;
+}
+
+.row input {
+    margin: 8px;
+    padding: 14px 10px;
+    background: skip-white-space;
+    
+    border-color: black;
+    border-radius: 5px;
+    font-size: 19px;
+  font-color:orangered;
+}
